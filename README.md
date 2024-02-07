@@ -16,10 +16,10 @@ This test plan covers the testing of the Sample Sorter Application to verify com
 5. Placing patients with the same vision defect into the same rack is illegal.
 6. The number of racks is minimal.
 
-**Testing Approach:**
+##**Testing Approach:**
 The testing approach will involve a combination of automated tests. It will cover functional and boundary testing to ensure the application's correctness, and compliance with legal requirements.
 
-**Test Scenarios:**
+##**Test Scenarios:**
 
 1. **Patient Specificity:**
    - Verify that each tube contains material specific to a single patient.
@@ -51,29 +51,29 @@ The testing approach will involve a combination of automated tests. It will cove
      - Verify that the application handles the rack limitation appropriately, such as providing an error message or prioritizing patient assignment based on other criteria.
 
 
-**Test Environment:**
+##**Test Environment:**
 The testing will be conducted in an environment that mirrors the production environment as closely as possible. This includes using similar hardware configurations, operating systems, and database setups.
 
 
-**Testing Tools:**
+##**Testing Tools:**
 This Test Plan includes only automated tests in Playwright. We assumed that this application was the web tool Sample Sorter Application
 
 
-**Testing Deliverables:**
+##**Testing Deliverables:**
 - Test cases document detailing test scenarios, test steps, and expected results.
 - Test execution report summarizing test results, including any defects found.
 - Any additional documentation or artifacts generated during the testing process.
 
-**Testing Schedule:**
+##**Testing Schedule:**
 Testing will commence immediately after the development phase and continue iteratively until all test cases have been executed successfully. The duration of testing will depend on the complexity of the application and the number of iterations required.
 
-**Risks and Mitigation:**
+##**Risks and Mitigation:**
 - Risk: Inaccurate patient data may lead to incorrect rack assignments.
   - Mitigation: Implement data validation checks to ensure the accuracy and integrity of patient information.
 - Risk: Limited rack availability may result in inadequate patient sorting.
   - Mitigation: Implement prioritization strategies to optimize rack utilization based on legal requirements and critical patient factors.
 
-**Sign-off:**
+##**Sign-off:**
 Testing will be considered complete and ready for deployment after all test cases have been executed, and any identified defects have been resolved to the satisfaction of stakeholders.
 
 
