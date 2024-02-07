@@ -50,18 +50,21 @@ The testing approach will involve a combination of automated tests. It will cove
      - Create a large number of patient profiles exceeding the rack limit.
      - Verify that the application handles the rack limitation appropriately, such as providing an error message or prioritizing patient assignment based on other criteria.
 
-      **Test Environment:**
+
+**Test Environment:**
 The testing will be conducted in an environment that mirrors the production environment as closely as possible. This includes using similar hardware configurations, operating systems, and database setups.
 
-      **Testing Tools:**
+
+**Testing Tools:**
 This Test Plan includes only automated tests in Playwright. We assumed that this application was the web tool Sample Sorter Application
+
 
 **Testing Deliverables:**
 - Test cases document detailing test scenarios, test steps, and expected results.
 - Test execution report summarizing test results, including any defects found.
 - Any additional documentation or artifacts generated during the testing process.
 
-  **Testing Schedule:**
+**Testing Schedule:**
 Testing will commence immediately after the development phase and continue iteratively until all test cases have been executed successfully. The duration of testing will depend on the complexity of the application and the number of iterations required.
 
 **Risks and Mitigation:**
