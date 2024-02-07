@@ -20,40 +20,34 @@ This test plan covers the testing of the Sample Sorter Application to verify com
 The testing approach will involve a combination of automated tests. It will cover functional and boundary testing to ensure the application's correctness, and compliance with legal requirements.
 
 ##**Test Scenarios:**
+1. **Patient Specificity:**
+   - Verify that each tube contains material specific to a single patient.
+   - Verify that the application correctly associates each tube with the corresponding patient.
 
-Feature: Sample Sorter Application Tests
-
-  Scenario: Patient Specificity
-    Given multiple patient profiles exist
-    When a test tube is associated with each patient
-    Then each test tube should contain material specific to a single patient
-
-  Scenario: Age-based Rack Assignment
-    Given multiple patient profiles with different ages exist
-    When test tubes are assigned to racks
-    Then patients of the same age should not be placed in the same rack
-
-  Scenario: Company-based Rack Assignment
-    Given patient profiles associated with different companies exist
-    When test tubes are assigned to racks
-    Then patients working in the same company should not be placed in the same rack
-
-  Scenario: City District-based Rack Assignment
-    Given patient profiles residing in different city districts exist
-    When test tubes are assigned to racks
-    Then patients living in the same city district should not be placed in the same rack
-
-  Scenario: Vision Defect-based Rack Assignment
-    Given patient profiles with different vision defects exist
-    When test tubes are assigned to racks
-    Then patients with the same vision defect should not be placed in the same rack
-
-  Scenario: Rack Limitation
-    Given a limited number of racks is available
-    And a large number of patient profiles exist
-    When test tubes are assigned to racks
-    Then the application should handle rack limitations appropriately
-
+2. **Age-based Rack Assignment:**
+   - Test scenario:
+     - Create multiple patient profiles with different ages.
+     - Verify that patients of the same age are not placed in the same rack.
+   
+3. **Company-based Rack Assignment:**
+   - Test scenario:
+     - Create patient profiles associated with different companies.
+     - Verify that patients working in the same company are not placed in the same rack.
+   
+4. **City District-based Rack Assignment:**
+   - Test scenario:
+     - Create patient profiles residing in different city districts.
+     - Verify that patients living in the same city district are not placed in the same rack.
+   
+5. **Vision Defect-based Rack Assignment:**
+   - Test scenario:
+     - Create patient profiles with different vision defects.
+     - Verify that patients with the same vision defect are not placed in the same rack.
+   
+6. **Rack Limitation:**
+   - Test scenario:
+     - Create a large number of patient profiles exceeding the rack limit.
+     - Verify that the application handles the rack limitation appropriately, such as providing an error message or prioritizing patient assignment based on other criteria.
 
 ## **Test Environment:**
 The testing will be conducted in an environment that mirrors the production environment as closely as possible. This includes using similar hardware configurations, operating systems, and database setups.
