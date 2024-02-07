@@ -2,7 +2,7 @@
 TestPlan and implementation in Playwright sample code
 
 
-#Test Plan: Sample Sorter Application
+## Test Plan: Sample Sorter Application
 
 ## Objective:
 To verify that the Sample Sorter Application handles the unique legal requirements governing the sorting of blood samples. In this Test Plan, we ensure that the application appropriately handles edge cases and constraints imposed by the limited number of racks while maintaining compliance with legal regulations and safeguarding patient privacy and data integrity.
