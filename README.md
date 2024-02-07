@@ -53,7 +53,7 @@ The testing approach will involve a combination of automated tests. It will cove
       **Test Environment:**
 The testing will be conducted in an environment that mirrors the production environment as closely as possible. This includes using similar hardware configurations, operating systems, and database setups.
 
-**Testing Tools:**
+      **Testing Tools:**
 This Test Plan includes only automated tests in Playwright. We assumed that this application was the web tool Sample Sorter Application
 
 **Testing Deliverables:**
