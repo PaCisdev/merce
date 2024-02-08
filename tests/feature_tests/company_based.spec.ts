@@ -34,6 +34,7 @@ async function WhenTubeIsAssign(){
 
 async function ThenNotIntTheSamePlace(){
     expect(patient1Place).not.toEqual(patient2Place);
+    console.log('If failed, patient material are on the same rack');
 };//Then patients working in the same company should not be placed in the same rack
 
 function skipTestIfEqual(company1: string, company2: string): boolean{
@@ -55,6 +56,7 @@ test.describe('Scenario: Company-based Rack Assigment', () => {
       await GivenPatientsFromDifferentCompany();
       await WhenTubeIsAssign();
       await ThenNotIntTheSamePlace();
+      console.log('If test failed, patient material are on the same rack');
     });
 });
 };

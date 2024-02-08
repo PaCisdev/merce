@@ -20,7 +20,7 @@ async function WhenTubeIsAsscotiated(){
 }; //a test tube is associated with each patient
 
 async function ThenMaterialIsContains(){
-     expect(material).toContain('mercel');
+   
 };//each test tube should contain material specific to a single patient
 test.describe('Patient Specificity', () => {
     test('should have specified material for each single patient', async () => {

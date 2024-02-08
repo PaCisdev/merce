@@ -61,7 +61,7 @@ test.describe('Age-based Rack Assignment', () => {
           await ThenNotIntTheSamePlace();
         });
     
-    console.log("Run test because of different age of patients...");
+    
     };
 });
 

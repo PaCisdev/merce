@@ -75,3 +75,15 @@ Testing will commence immediately after the development phase and continue itera
 Testing will be considered complete and ready for deployment after all test cases have been executed, and any identified defects have been resolved to the satisfaction of stakeholders.
 
 
+
+To run solution:
+
+1. Import repository into any IDE tool
+2. Run command:
+     npm install playwright
+3. To run test, enter command in CL:
+  
+  npx playwright test "age_rack.spec.ts"
+  npx playwright test "company_based.spec.ts"
+  npx playwright test "patient_specify.spec.ts" 
+  
