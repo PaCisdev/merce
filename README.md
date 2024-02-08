@@ -81,9 +81,11 @@ To run solution:
 1. Import repository into any IDE tool
 2. Run command:
      npm install playwright
-3. To run test, enter command in CL:
+3. To run tests, enter command in CL:
   
   npx playwright test "age_rack.spec.ts"
+
   npx playwright test "company_based.spec.ts"
+
   npx playwright test "patient_specify.spec.ts" 
   
