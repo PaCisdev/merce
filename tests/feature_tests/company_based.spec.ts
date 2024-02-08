@@ -21,8 +21,17 @@ let patient1Place = randomPlace();
 let patient2Place = randomPlace();
 
 
-async function GivenPatientsFromDifferentCompany(){};   //'Given patient profiles associated with different companies exist'
-async function WhenTubeIsAssign(){}; //When test tubes are assigned to racks
+async function GivenPatientsFromDifferentCompany(){
+    console.log('First patient company:', patientCompany1);
+    console.log('Second patient company:;', patientCompany2);
+
+};   //'Given patient profiles associated with different companies exist'
+
+async function WhenTubeIsAssign(){
+    console.log('First patient is assigne to' , patient1Place);
+    console.log('Seconf patient is assinge to', patient2Place);
+}; //When test tubes are assigned to racks
+
 async function ThenNotIntTheSamePlace(){
     expect(patient1Place).not.toEqual(patient2Place);
 };//Then patients working in the same company should not be placed in the same rack
