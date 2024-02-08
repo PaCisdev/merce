@@ -39,7 +39,7 @@ function skipTestIfEqual(company1: string, company2: string): boolean{
 
 if (!skipTestIfEqual(patientCompany1, patientCompany2)) { 
         // skiping test if patient are in the same company
-test.describe('Scenario: Company-based Rack Assigmennt', () => {
+test.describe('Scenario: Company-based Rack Assigment', () => {
 
     
     test('should have not the same place for diffeerent company', async () => {

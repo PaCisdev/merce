@@ -51,7 +51,7 @@ function skipTestIfEqual(age1: number, age2: number): boolean{
 };
 
     // skiping test if patient are in the same age
-test.describe('Age-based Rack Assignmenty', () => {
+test.describe('Age-based Rack Assignment', () => {
 
  
     if (!skipTestIfEqual(patient1Age, patient2Age)) {    
